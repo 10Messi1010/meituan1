@@ -1,0 +1,10 @@
+<!-- 导航栏 -->
+<view class="mt-nav">
+    <block wx:for="{{navList}}" wx:key="index">
+        <navigator>
+            <view class="icon iconfont {{item.icon}}"></view>
+            <view class="title">{{item.text}}</view>
+        </navigator>
+    </block> 
+</view>
+  

@@ -1,0 +1,65 @@
+/* components/guessList/index.wxss */
+.guess .guess_title {
+    text-align: center;
+    font-size: 30rpx;
+    color: #ccc;
+    line-height: 30px;
+}
+.guess_content navigator {
+    display: flex;
+    padding: 10px 0;
+    border-top: 1px solid #eee;
+}
+.guess_content .item_left {
+    width: 300rpx;
+    height: 200rpx;
+}
+.item_left image {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.guess_content .item_right {
+    margin-left: 20px;
+    width: 100%;
+}
+.item_right .shop_info {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+.shop_info .shop_name {
+    font-size: 30rpx;
+}
+.shop_info .shop_dis {
+    font-size: 26rpx;
+    color: #666;
+}
+.item_right .goods_info {
+    font-size: 28rpx;
+    color: #666;
+}
+.item_right .goods_sell {
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.goods_sell .goods_price {
+    font-size: 32rpx;
+    color: orange;
+}
+.goods_sell .goods_nums {
+    font-size: 28rpx;
+    color: #666;
+}
+.item_right .goods_dis {
+    padding-top: 5px;
+}
+.item_right .goods_dis text {
+    padding: 5rpx 10rpx;
+    color: #F56C6C;
+    border: 1px solid #F56C6C;
+    background: #f8f7f3;
+    font-size: 24rpx;
+    border-radius: 3px;
+}

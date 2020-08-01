@@ -1,0 +1,45 @@
+/* components/groupBook/index.wxss */
+.group_book .gb_title {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.gb_title text:nth-child(1) {
+    font-size: 28rpx;
+}
+.gb_title text:nth-child(2) {
+    font-size: 26rpx;
+    color: #6666;
+}
+.group_book .gb_content {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.gb_content navigator {
+    width: 33%;
+    display: inline-block;
+    margin-right: 5px;
+}
+.gb_content image {
+    width: 100%;
+}
+.gb_content .brand_name {
+    font-size: 26rpx;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.gb_content .price {
+    display: flex;
+    justify-content: space-around;
+}
+.price .new_price{
+    font-size: 26rpx;
+    color: orange;
+}
+.price .old_price {
+    font-size: 24rpx;
+    text-decoration: line-through;
+    color: #666;
+}

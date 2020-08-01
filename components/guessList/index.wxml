@@ -1,0 +1,29 @@
+<!-- 猜你喜欢 -->
+<view class="guess">
+    <view class="guess_title">
+        —— 猜你喜欢 ——
+    </view>
+    <view class="guess_content">
+        <block wx:for="{{guessArr}}" wx:key="index">
+            <navigator>
+                <view class="item_left">
+                    <image src="{{item.img_src}}"></image>
+                </view>
+                <view class="item_right">
+                    <view class="shop_info">
+                        <text class="shop_name">{{item.brand_name}}</text>
+                        <text class="shop_dis">{{item.distance > 1000 ? item.distance / 1000 + "km": item.distance + "m"}}</text>
+                    </view>
+                    <view class="goods_info">{{item.desc}}</view>
+                    <view class="goods_sell">
+                        <text class="goods_price">￥{{item.price}}</text>
+                        <text class="goods_nums">已售{{item.count}}</text>
+                    </view>
+                    <view class="goods_dis">
+                        <text>{{item.discount}}</text>
+                    </view>
+                </view>
+            </navigator>
+        </block>
+    </view>
+</view>

@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "search-input": "/components/searchInput/index",
+    "swiper-list": "/components/swiperList/index",
+    "nav-list": "/components/navList/index",
+    "group-book": "/components/groupBook/index",
+    "guess-list": "/components/guessList/index"
+  }
+}

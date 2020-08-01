@@ -1,0 +1,26 @@
+/* components/searchInput/index.wxss */
+@import '../../font/iconfont2.wxss';
+
+.search {
+    font-size: 28rpx;
+    display: flex;
+}
+.search .sear_left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.search .sear_right {
+    flex: 5;
+    position: relative;
+}
+.sear_right input {
+    background: #f4f4f4;
+    border-radius: 20px;
+    padding-left: 40px;
+}
+.sear_right .icon-sousuo {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}

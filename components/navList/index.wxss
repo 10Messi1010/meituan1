@@ -1,0 +1,54 @@
+/* components/navList/index.wxss */
+@import '../../font/iconfont.wxss';
+
+.mt-nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+.mt-nav navigator {
+    width: 20%;
+    text-align: center;
+    padding: 5px 0;
+}
+.mt-nav .icon {
+    display: inline-block;
+    font-size: 50rpx;
+    border-radius: 50%;
+    color: #fff;
+    padding: 10px;
+}
+.mt-nav navigator:nth-child(1) .icon {
+    background: #f0934e;
+}
+.mt-nav navigator:nth-child(2) .icon {
+    background: #fb6765;
+}
+.mt-nav navigator:nth-child(3) .icon {
+    background: #8691fa;
+}
+.mt-nav navigator:nth-child(4) .icon {
+    background: #f3c04d;
+}
+.mt-nav navigator:nth-child(5) .icon {
+    background: #f0934e;
+}
+.mt-nav navigator:nth-child(6) .icon {
+    background: #6ec7b5;
+}
+.mt-nav navigator:nth-child(7) .icon {
+    background: #e37882;
+}
+.mt-nav navigator:nth-child(8) .icon {
+    background: #98d65b;
+}
+.mt-nav navigator:nth-child(9) .icon {
+    background: #6babf5;
+}
+.mt-nav navigator:nth-child(10) .icon {
+    background: #f4c04a;
+}
+.mt-nav .title {
+    font-size: 26rpx;
+    color: #666;
+    margin-top: 5px;
+}

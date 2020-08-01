@@ -1,0 +1,24 @@
+/* pages/index/index.wxss */
+.mt-content .sign{
+    width: 100%;
+    margin-top: 10px;
+}
+.sign image {
+    width: 100%;
+}
+.ads {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.ads navigator {
+    width: 49%;
+}
+.ads image {
+    width: 100%;
+}
+.box {
+    height: 10px;
+    background: #f8f8f8;
+}

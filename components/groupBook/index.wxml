@@ -1,0 +1,21 @@
+<!-- 拼团数据 -->
+<view class="group_book">
+    <!-- 头部 -->
+    <view class="gb_title">
+        <text>好货拼团</text>
+        <text>全部></text>
+    </view>
+    <!-- 内容区域 -->
+    <view class="gb_content">
+        <block wx:for="{{groupData}}" wx:key="index">
+            <navigator>
+                <image mode="widthFix" src="{{item.img_src}}"></image>
+                <view class="brand_name">{{item.brand_name}}</view>
+                <view class="price">
+                    <text class="new_price">￥{{item.price}}</text>
+                    <text class="old_price">￥{{item.old_price}}</text>
+                </view>
+            </navigator>
+        </block> 
+    </view>
+</view>

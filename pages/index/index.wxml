@@ -1,0 +1,25 @@
+<view class="mt-content">
+    <!-- 搜索框 -->
+    <search-input city="{{city}}"></search-input>
+    <!-- 轮播图 -->
+    <swiper-list swiperList="{{swiperList}}"></swiper-list>
+    <!-- 导航栏 -->
+    <nav-list navList="{{navList}}"></nav-list>
+    <!-- 签到 -->
+    <navigator class="sign">
+        <image mode="widthFix" src="/img/jiangli.png"></image> 
+    </navigator>
+    <!-- 好货拼团 -->
+    <group-book groupData="{{groupData}}"></group-book>
+    <!-- 广告位 -->
+    <view class="ads">
+        <block wx:for="{{adArr}}" wx:key="index">
+            <navigator>
+                <image mode="widthFix" src="{{item.img}}"></image>
+            </navigator>
+        </block>
+    </view>
+    <view class="box"></view>
+    <!-- 猜你喜欢 -->
+    <guess-list guessArr="{{guessArr}}"></guess-list>
+</view>

@@ -1,0 +1,13 @@
+/* components/swiperList/index.wxss */
+.mt-swiper {
+    margin-top: 10px;
+}
+.mt-swiper swiper {
+    width: 710rpx;
+    height: 187rpx;
+}
+.mt-swiper navigator,
+.mt-swiper image {
+    width: 100%;
+    height: 100%;
+}
